@@ -15,6 +15,7 @@
 
 		}
 		img {
+			height: 50%;
 			width: 50%;
 		}
 		kbd {
@@ -29,13 +30,6 @@
   		a{
   			width: 210%;
   		}
-		.topnav {
-			width: 45%;
-		}
-		.search-container {
-			width: 55%;
-			margin-top: 22.5px;
-		}
 		#home:hover {
   			color: rgb(242,240,232);
   			background-color: rgba(179,156,123,0.5); /* For browsers that do not support gradients */
@@ -85,103 +79,58 @@
 </head>
 <body>
 
-	<div class="form-inline">
-		<div class="topnav">
-		<form class="form-inline">
+				<nav class="navbar">
 
-				<img src="https://cdn.discordapp.com/attachments/868298603075092480/1214830086268653568/XsMMgAAAABJRU5ErkJggg.png?ex=65fa89af&is=65e814af&hm=73a4f69252ca1db4de389cfc19316e0d0818cdffed148dccf0b41b5f5a1823ab&">
-				<pre>   </pre>
+					<ul class="navbar-nav nav-pills">
+						<li class="nav-item">
+							<a class="btn btn-outline-light" href="https://www.youtube.com/channel/UCpLqtJdfhVv58cPFhRzWJlg" target="a"><i>Youtube Channel</i></a>
+						</li>
+						<li class="nav-item">
+							<a class="btn btn-outline-light" href="https://open.spotify.com/artist/2hR4h1Cao2ueuI7Cx9c7V8" target="a"><i>Spotify</i></a>
+						</li>
+						<li class="nav-item">
+							<a class="btn btn-outline-light" href="https://www.instagram.com/lemon.socks/?hl=en" id="home" target="a"><i>Instagram</i></a>
+						</li>
+						<li class="nav-item">
+							<a class="btn btn-outline-light" href="https://www.threads.net/@lemon.socks" id="vice" target="a"><i>Threads</i></a>
+						</li>
+						<li class="nav-item">
+							<a class="btn btn-outline-light" href="https://www.facebook.com/cavetown/" id="cavetown" target="a"><i>Facebook</i></a>
+						</li>
+						<li class="nav-item">
+							<a class="btn btn-outline-light" href="https://twitter.com/cavetown?lang=en" id="jack" target="a"><i>Twitter (X)</i></a>
+						</li>
+						<li class="nav-item">
+							<a class="btn btn-outline-light" href="https://www.reddit.com/r/cavetown/" id="lemon" target="a"><i>Reddit</i></a>
+						</li>
+						<li class="nav-item">
+							<a class="btn btn-outline-light" href="https://soundcloud.com/cavetown" id="animal" target="a"><i>Sound Cloud</i></a>
+						</li>
+						<li class="nav-item">
+							<a class="btn btn-outline-light" href="https://www.songkick.com/artists/9526354-cavetown.html" id="sleepy" target="a"><i>Tours</i></a>
+						</li>
+						<li class="nav-item">
+							<a class="btn btn-outline-light" href="https://en.wikipedia.org/wiki/Cavetown" id="worm" target="a"><i>Wikipedia</i></a>
+						</li>
+					</ul>
+				</nav>
 
-			
-				<ul class="navbar navbar-expand">
-					<pre>   </pre>
-					<li class="navbar-nav nav-pills">
-						<a class="btn btn-sm btn-outline-light" href="(1.2) Albums.html" target="1" id="margin-top">Albums</a>
-					</li>
-					<pre>   </pre>
-					<li class="navbar-nav nav-pills">
-						<a class="btn btn-sm btn-outline-light" href="(1.3) Socials.html" target="1"  id="margin-top">Socials</a>
-					</li>
-				</ul>
-			</form>
+				<center>
+				<div class="form-group">
+					<label>Select Language</label>
+					<select class="form-control" style="width: 75%">
+						<option>English</option>
+						<option>translate. . .</option>
+					</select>
+				</div>
 
-		</div>
-
-		<nav class="navbar navbar-expand">
-
-		<div class="search-container">
-			<form class="form-inline">
-				<ul class="navbar-nav nav-pills">
-					<pre>                                                    </pre>
-					<li class="nav-item">
-						<button class="btn-outline-light btn-sm" href="#" id="margin-top">Login</button>
-					</li>
-					<pre>   </pre>
-					<li class="nav-item">
-						<button class="btn-outline-light btn-sm" href="#" id="margin-top">Signup</button>
-					</li>
-					<pre>   </pre>
-					<input class="form-control-sm" type="search" placeholder="Search                          ⌕" name="search" class="searchinput">
-				</ul>
-				<pre>   </pre>
-				
-			</form>
-		</div>
-		</nav>
-
-	</div>
-
-	<div class="container-fluid">
-
-	<div class="row">
-		<div class="col-md-3">
-			<iframe src="(1.2) Albums.html" height="100%" width="100%" name="1" style="border: none;"></iframe>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-		</div>
-
-
-
-		<div class="col-md-9">
-			<iframe src="(2.1) Menu.html" height="100%" width="100%" name="a" style="border: none;"></iframe>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-		</div>
-	</div>
-
-	</div>
+				<form class="form-group">
+					
+					<input class="btn-outline-light" rows="1" cols="1000" placeholder="Type a comment. . ."></input>
+					<button type="submit" class="btn-outline-light">➤</button>
+						
+				</form>
+				</center>
 
 </body>
 </html>

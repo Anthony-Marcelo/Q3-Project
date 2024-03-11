@@ -15,6 +15,7 @@
 
 		}
 		img {
+			height: 50%;
 			width: 50%;
 		}
 		kbd {
@@ -29,13 +30,6 @@
   		a{
   			width: 210%;
   		}
-		.topnav {
-			width: 45%;
-		}
-		.search-container {
-			width: 55%;
-			margin-top: 22.5px;
-		}
 		#home:hover {
   			color: rgb(242,240,232);
   			background-color: rgba(179,156,123,0.5); /* For browsers that do not support gradients */
@@ -85,103 +79,58 @@
 </head>
 <body>
 
-	<div class="form-inline">
-		<div class="topnav">
-		<form class="form-inline">
+				<nav class="navbar">
 
-				<img src="https://cdn.discordapp.com/attachments/868298603075092480/1214830086268653568/XsMMgAAAABJRU5ErkJggg.png?ex=65fa89af&is=65e814af&hm=73a4f69252ca1db4de389cfc19316e0d0818cdffed148dccf0b41b5f5a1823ab&">
-				<pre>   </pre>
+					<ul class="navbar-nav nav-pills">
+						<li class="nav-item">
+							<a class="btn btn-outline-light" href="(2.1) Menu.html" target="a"><i>Menu</i></a>
+						</li>
+						<li class="nav-item">
+							<a class="btn btn-outline-light" href="(3.1) Info.html" target="a"><i>Information</i></a>
+						</li>
+						<li class="nav-item">
+							<a class="btn btn-outline-light" href="(4.1) This is Home & Home.html" id="home" target="a"><i>Home</i></a>
+						</li>
+						<li class="nav-item">
+							<a class="btn btn-outline-light" href="(5.1) Cavetown.html" id="cavetown" target="a"><i>Cavetown</i></a>
+						</li>
+						<li class="nav-item">
+							<a class="btn btn-outline-light" href="(6.1) 16.04.16.html" id="jack" target="a"><i>16/04/16</i></a>
+						</li>
+						<li class="nav-item">
+							<a class="btn btn-outline-light" href="(7.1) Lemon Boy Album.html" id="lemon" target="a"><i>Lemon Boy</i></a>
+						</li>
+						<li class="nav-item">
+							<a class="btn btn-outline-light" href="(8.1) Animal Kingdom.html" id="animal" target="a"><i>Animal Kingdom</i></a>
+						</li>
+						<li class="nav-item">
+							<a class="btn btn-outline-light" href="(9.1) Sleepyhead Album.html" id="sleepy" target="a"><i>Sleepyhead</i></a>
+						</li>
+						<li class="nav-item">
+							<a class="btn btn-outline-light" href="(10.1) worm food album.html" id="worm" target="a"><i>worm food</i></a>
+						</li>
+						<li class="nav-item">
+							<a class="btn btn-outline-light" href="(11.1) little vice.html" id="vice" target="a"><i>little vice</i></a>
+						</li>
+					</ul>
+				</nav>
 
-			
-				<ul class="navbar navbar-expand">
-					<pre>   </pre>
-					<li class="navbar-nav nav-pills">
-						<a class="btn btn-sm btn-outline-light" href="(1.2) Albums.html" target="1" id="margin-top">Albums</a>
-					</li>
-					<pre>   </pre>
-					<li class="navbar-nav nav-pills">
-						<a class="btn btn-sm btn-outline-light" href="(1.3) Socials.html" target="1"  id="margin-top">Socials</a>
-					</li>
-				</ul>
-			</form>
+				<center>
+				<div class="form-group">
+					<label>Select Language</label>
+					<select class="form-control" style="width: 75%">
+						<option>English</option>
+						<option>translate. . .</option>
+					</select>
+				</div>
 
-		</div>
-
-		<nav class="navbar navbar-expand">
-
-		<div class="search-container">
-			<form class="form-inline">
-				<ul class="navbar-nav nav-pills">
-					<pre>                                                    </pre>
-					<li class="nav-item">
-						<button class="btn-outline-light btn-sm" href="#" id="margin-top">Login</button>
-					</li>
-					<pre>   </pre>
-					<li class="nav-item">
-						<button class="btn-outline-light btn-sm" href="#" id="margin-top">Signup</button>
-					</li>
-					<pre>   </pre>
-					<input class="form-control-sm" type="search" placeholder="Search                          ⌕" name="search" class="searchinput">
-				</ul>
-				<pre>   </pre>
-				
-			</form>
-		</div>
-		</nav>
-
-	</div>
-
-	<div class="container-fluid">
-
-	<div class="row">
-		<div class="col-md-3">
-			<iframe src="(1.2) Albums.html" height="100%" width="100%" name="1" style="border: none;"></iframe>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-		</div>
-
-
-
-		<div class="col-md-9">
-			<iframe src="(2.1) Menu.html" height="100%" width="100%" name="a" style="border: none;"></iframe>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-		</div>
-	</div>
-
-	</div>
+				<form class="form-group">
+					
+					<input class="btn-outline-light" rows="1" cols="1000" placeholder="Type a comment. . ."></input>
+					<button type="submit" class="btn-outline-light">➤</button>
+						
+				</form>
+				</center>
 
 </body>
 </html>
